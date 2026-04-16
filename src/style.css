@@ -1,10 +1,33 @@
-  @import "tailwindcss";
+@import "tailwindcss";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 .input {
-  @apply w-full border rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-400 outline-none;
+  @apply w-full border rounded-lg px-3 py-3 focus:ring-2 focus:ring-blue-400 outline-none transition-all;
+}
+
+/* Floating Label Styles */
+.floating-label {
+  @apply absolute text-sm text-gray-500 duration-300 transform -translate-y-4 scale-75 top-4 z-10 origin-[0] left-3 bg-white px-1;
+  @apply peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4 peer-focus:text-blue-600;
+}
+
+.input:focus {
+  @apply border-blue-500;
+}
+
+.input:valid:not(:placeholder-shown) {
+  @apply border-green-500;
+}
+
+.input:invalid:not(:placeholder-shown) {
+  @apply border-red-500;
+}
+
+/* Phone input specifically */
+input[type="tel"] {
+  letter-spacing: 0.05em;
 }
 
 .btn-primary {
