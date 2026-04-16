@@ -4,25 +4,46 @@
       "name": "John Doe",
       "email": "john.doe@example.com",
       "phone": "+1 (555) 123-4567",
-      "id": "R7mUkf2kJmw"
+      "id": "R7mUkf2kJmw",
+      "created_at": "2026-04-10T08:30:00Z",
+      "updated_at": "2026-04-15T14:20:00Z",
+      "deleted_at": null
     },
     {
       "name": "Sarah Williams",
       "email": "sarah.williams@example.com",
       "phone": "+1 (555) 234-5678",
-      "id": "K8mUkf2kJmx"
+      "id": "K8mUkf2kJmx",
+      "created_at": "2026-04-11T10:15:00Z",
+      "updated_at": "2026-04-16T09:45:00Z",
+      "deleted_at": null
     },
     {
       "name": "Michael Johnson",
       "email": "michael.johnson@example.com",
       "phone": "+1 (555) 345-6789",
-      "id": "L9mUkf2kJmy"
+      "id": "L9mUkf2kJmy",
+      "created_at": "2026-04-12T11:00:00Z",
+      "updated_at": "2026-04-14T16:30:00Z",
+      "deleted_at": "2026-04-16T21:25:28.605Z"
     },
     {
       "name": "Emily Brown",
       "email": "emily.brown@example.com",
       "phone": "+1 (555) 456-7890",
-      "id": "M0mUkf2kJmz"
+      "id": "M0mUkf2kJmz",
+      "created_at": "2026-04-13T13:45:00Z",
+      "updated_at": "2026-04-16T11:20:00Z",
+      "deleted_at": null
+    },
+    {
+      "name": "Robert Smith",
+      "email": "robert@example.com",
+      "phone": "+1 (555) 678-9012",
+      "created_at": "2026-04-16T21:26:53.093Z",
+      "updated_at": "2026-04-16T21:26:53.093Z",
+      "deleted_at": null,
+      "id": "V5dTwn563hI"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

@@ -31,7 +31,9 @@ const handleEdit = (contact) => {
 };
 
 const handleUpdate = async (contact) => {
-  const res = await updateContact(contact.id, contact);
+  // Remove timestamp fields before sending - API will add updated_at
+  const { created_at, updated_at, deleted_at, ...updateData } = contact;
+  const res = await updateContact(contact.id, updateData);
   const index = contacts.value.findIndex(c => c.id === contact.id);
   contacts.value[index] = res.data;
   selectedContact.value = null;
