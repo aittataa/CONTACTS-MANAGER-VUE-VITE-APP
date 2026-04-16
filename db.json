@@ -1,0 +1,11 @@
+{
+  "contacts": [
+    {
+      "name": "bla bla bla ",
+      "email": "ba bla bla ",
+      "phone": "213546879",
+      "id": "R7mUkf2kJmw"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
