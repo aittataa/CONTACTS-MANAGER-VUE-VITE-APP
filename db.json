@@ -1,10 +1,28 @@
 {
   "contacts": [
     {
-      "name": "bla bla bla ",
-      "email": "ba bla bla ",
-      "phone": "213546879",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phone": "+1 (555) 123-4567",
       "id": "R7mUkf2kJmw"
+    },
+    {
+      "name": "Sarah Williams",
+      "email": "sarah.williams@example.com",
+      "phone": "+1 (555) 234-5678",
+      "id": "K8mUkf2kJmx"
+    },
+    {
+      "name": "Michael Johnson",
+      "email": "michael.johnson@example.com",
+      "phone": "+1 (555) 345-6789",
+      "id": "L9mUkf2kJmy"
+    },
+    {
+      "name": "Emily Brown",
+      "email": "emily.brown@example.com",
+      "phone": "+1 (555) 456-7890",
+      "id": "M0mUkf2kJmz"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
