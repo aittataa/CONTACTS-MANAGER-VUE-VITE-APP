@@ -1,76 +1,22 @@
 {
   "contacts": [
     {
-      "name": "John Doe",
-      "email": "john.doe@example.com",
-      "phone": "+1 (555) 123-4567",
-      "id": "R7mUkf2kJmw",
-      "created_at": "2026-04-10T08:30:00Z",
-      "updated_at": "2026-04-15T14:20:00Z",
-      "deleted_at": "2026-04-16T21:32:03.892Z"
-    },
-    {
-      "name": "Sarah Williams",
-      "email": "sarah.williams@example.com",
-      "phone": "+1 (555) 234-5678",
-      "id": "K8mUkf2kJmx",
-      "created_at": "2026-04-11T10:15:00Z",
-      "updated_at": "2026-04-16T09:45:00Z",
-      "deleted_at": "2026-04-16T21:32:01.631Z"
-    },
-    {
-      "name": "Michael Johnson",
-      "email": "michael.johnson@example.com",
-      "phone": "+1 (555) 345-6789",
-      "id": "L9mUkf2kJmy",
-      "created_at": "2026-04-12T11:00:00Z",
-      "updated_at": "2026-04-14T16:30:00Z",
-      "deleted_at": "2026-04-16T21:25:28.605Z"
-    },
-    {
-      "name": "Emily Brown",
-      "email": "emily.brown@example.com",
-      "phone": "+1 (555) 456-7890",
-      "id": "M0mUkf2kJmz",
-      "created_at": "2026-04-13T13:45:00Z",
-      "updated_at": "2026-04-16T11:20:00Z",
-      "deleted_at": "2026-04-16T21:31:59.784Z"
-    },
-    {
-      "name": "Robert Smith",
-      "email": "robert@example.com",
-      "phone": "+1 (555) 678-9012",
-      "created_at": "2026-04-16T21:26:53.093Z",
-      "updated_at": "2026-04-16T21:26:53.093Z",
-      "deleted_at": "2026-04-16T21:31:58.215Z",
-      "id": "V5dTwn563hI"
-    },
-    {
-      "name": "fgfgdfgdfg",
-      "email": "dfgdfgfdgdfg",
-      "phone": "fgdfgdfgdfgdfg",
-      "created_at": "2026-04-16T21:27:58.929Z",
-      "updated_at": "2026-04-16T21:27:58.929Z",
-      "deleted_at": "2026-04-16T21:28:24.699Z",
-      "id": "JQnY9GQhe_M"
-    },
-    {
-      "name": "sdgs dgd sd gsdg ",
-      "email": "sdg sdg sdgv dv s",
-      "phone": " sdfg sdg vsdg v",
-      "created_at": "2026-04-16T21:28:15.721Z",
-      "updated_at": "2026-04-16T21:28:15.721Z",
-      "deleted_at": "2026-04-16T21:28:22.593Z",
-      "id": "kIFnphx4Fdw"
-    },
-    {
-      "name": "John Doe",
-      "email": "john.doe@example.com",
-      "phone": "555-123-4567",
-      "created_at": "2026-04-16T21:34:43.326Z",
-      "updated_at": "2026-04-16T21:34:43.326Z",
+      "name": "Hello World",
+      "email": "hello.world@gmail.com",
+      "phone": "123456789",
+      "created_at": "2026-04-23T19:21:14.452Z",
+      "updated_at": "2026-04-23T19:21:14.452Z",
       "deleted_at": null,
-      "id": "nE0uL8a5sNo"
+      "id": "53V746CMj7w"
+    },
+    {
+      "name": "Hello World 2 ",
+      "email": "hello.world.2@gmail.com",
+      "phone": "987654321",
+      "created_at": "2026-04-23T19:22:03.454Z",
+      "updated_at": "2026-04-23T19:22:03.454Z",
+      "deleted_at": null,
+      "id": "pN_FrhaIbHc"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
